@@ -3,4 +3,5 @@
 import numpy as np
 arr1 = np.arange(15).reshape(5,3)
 arr2 = np.arange(6).reshape(3,2)
-resultant = np.matmul(arr1,a
+resultant = np.matmul(arr1,arr2)
+print(resultant)
